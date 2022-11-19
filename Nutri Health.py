@@ -644,7 +644,7 @@ Button(main_win,text='Weight Loss',font='Helvetica 8 bold',command=Weight_Loss).
 Button(main_win,text='Weight Gain',font='Helvetica 8 bold',command=Weight_Gain).grid(row=11,column=1,sticky=W,pady=4)
 Button(main_win,text='Healthy',font='Helvetica 8 bold',command=Healthy).grid(row=11,column=2,sticky=W,pady=4)
 main_win.geometry("500x500")
-main_win.wm_title("DIET RECOMMENDATION SYSTEM")
+main_win.wm_title("Nutri Health")
 main_win.configure(bg='light green')
 main_win.mainloop()
 
